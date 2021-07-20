@@ -69,7 +69,7 @@ async def ping(ctx):
     await ctx.send('pong')
 @bot.command()
 async def test(ctx):
-    await ctx.send('テストだと思ったか？残念普通のコマンドだ')
+    await ctx.send('テストだと思ったか？残念普通のコマンドだ(？)')
 @bot.command()
 async def syamu(ctx):
     await ctx.send('　ウイイイイイイイッッッッスどうも、シャムでーす。')
